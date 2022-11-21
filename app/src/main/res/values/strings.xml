@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ColorMyView_Udacity</string>
+    <string name="box_one">Box One!</string>
+    <string name="box_two_text">Box Two!</string>
+    <string name="box_three_text">Box three!</string>
+    <string name="box_four_text">Box four!</string>
+    <string name="box_five_text">Box five!</string>
+    <string name="how_to_play">How to play:</string>
+    <string name="info_text_how_to_play">Tap to screen and buttons!</string>
+    <string name="button_red">RED</string>
+    <string name="button_yellow">YELLOW</string>
+    <string name="button_green">GREEN</string>
+</resources>

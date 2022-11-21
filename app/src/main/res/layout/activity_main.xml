@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contraint_lyt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_gay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/nursat_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nursat"
+        app:layout_constraintTop_toBottomOf="@id/iv_gay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/nursattt"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:id="@id/nursattt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Maksat Krasavchik"
+        app:layout_constraintTop_toBottomOf="@id/iv_gay"
+        app:layout_constraintStart_toEndOf="@id/nursat_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
